@@ -1,0 +1,10 @@
+<h1><%= @user.name %>のページ</h1>
+
+<p>メールアドレス: <%= @user.email %></p>
+
+<p>
+  <% unless @user.image.url == nil %>
+  <strong>Image:</strong>
+  <%= image_tag @user.image.url, size: '100x100' %>
+  <% end %>
+</p>
