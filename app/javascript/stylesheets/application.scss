@@ -1,0 +1,19 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 30px;
+  background-color: purple;
+  color: white;
+}
+
+footer {
+  padding: 30px;
+  background-color: purple;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
