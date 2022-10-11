@@ -50,3 +50,7 @@ gem 'rexml'
 gem 'dotenv-rails'
 
 gem 'faker'
+
+gem 'net-smtp'
+gem 'net-imap'
+gem 'net-pop'
