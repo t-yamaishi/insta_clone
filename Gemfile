@@ -54,3 +54,7 @@ gem 'faker'
 gem 'net-smtp'
 gem 'net-imap'
 gem 'net-pop'
+
+gem 'fog-aws'
+
+gem 'dotenv-rails'
