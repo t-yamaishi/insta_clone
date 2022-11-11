@@ -2,7 +2,7 @@
 lock "~> 3.16.0"
 
 set :application, "insta_clone"
-set :repo_url, "git@github.com:t-yamaishi/insta_clone.git"
+set :repo_url, "https://github.com/t-yamaishi/insta_clone.git"
 
 set :branch, ENV['BRANCH'] || 'main'
 
