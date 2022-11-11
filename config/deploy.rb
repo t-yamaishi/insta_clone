@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.16.0"
 
-set :application, "insta_clone"
+set :application, "instagram_clone"
 set :repo_url, "https://github.com/t-yamaishi/insta_clone.git"
 
 set :branch, ENV['BRANCH'] || 'main'
